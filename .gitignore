@@ -1,0 +1,26 @@
+# Python 编译文件
+__pycache__/
+*.pyc
+
+# 虚拟环境
+.venv/
+venv/
+env/
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+
+# 数据库
+db.sqlite3
+
+# Django 特定文件
+media/
+static_cdn/ # 如果你配置了额外的静态文件目录
+local_settings.py # 如果你有本地敏感配置
+
+# IDE 相关文件 (例如 VS Code)
+.vscode/
+.idea/
+
+# 其他
+.DS_Store # macOS 特定文件
