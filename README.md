@@ -1,3 +1,3 @@
 mydjango
 
-main branch commit
+main branch commit message second
